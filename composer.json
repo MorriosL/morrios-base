@@ -1,0 +1,23 @@
+{
+    "name": "morrios/base",
+    "description": "Morrios base library.",
+    "keywords": ["morrios", "php", "struct"],
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morrio",
+            "email": "morrios@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Morrios\\": "src/"
+        }
+    }
+}
